@@ -42,5 +42,9 @@
   "podcast": {
     "dataSource": "podfy-api",
     "public": true
+  },
+  "episode": {
+    "dataSource": "podfy-api",
+    "public": true
   }
 }

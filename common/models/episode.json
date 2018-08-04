@@ -1,0 +1,38 @@
+{
+  "name": "episode",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "download-link": {
+      "type": "string"
+    },
+    "created-at": {
+      "type": "date",
+      "required": true
+    },
+    "updated-at": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
