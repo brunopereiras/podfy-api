@@ -1,0 +1,45 @@
+{
+  "name": "podcast",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "added-automaticaly": {
+      "type": "boolean",
+      "required": true
+    },
+    "external-feed": {
+      "type": "string"
+    },
+    "internal-feed": {
+      "type": "string"
+    },
+    "created-at": {
+      "type": "date",
+      "required": true
+    },
+    "updated-at": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

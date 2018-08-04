@@ -38,5 +38,9 @@
   "user": {
     "dataSource": "podfy-api",
     "public": true
+  },
+  "podcast": {
+    "dataSource": "podfy-api",
+    "public": true
   }
 }
