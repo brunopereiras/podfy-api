@@ -1,0 +1,30 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "gender": {
+      "type": "boolean",
+      "required": true
+    },
+    "birth-date": {
+      "type": "date",
+      "required": true
+    },
+    "created-at": {
+      "type": "date",
+      "required": true
+    },
+    "updated-at": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
