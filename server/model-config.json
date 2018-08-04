@@ -46,5 +46,9 @@
   "episode": {
     "dataSource": "podfy-api",
     "public": true
+  },
+  "user-type": {
+    "dataSource": "podfy-api",
+    "public": true
   }
 }
