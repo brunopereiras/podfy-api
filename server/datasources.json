@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "podfy-api": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "podfy-api",
+    "password": "",
+    "name": "podfy-api",
+    "user": "",
+    "connector": "mongodb"
   }
 }
