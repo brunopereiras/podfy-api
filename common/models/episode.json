@@ -21,14 +21,6 @@
     },
     "download-link": {
       "type": "string"
-    },
-    "created-at": {
-      "type": "date",
-      "required": true
-    },
-    "updated-at": {
-      "type": "date",
-      "required": true
     }
   },
   "validations": [],

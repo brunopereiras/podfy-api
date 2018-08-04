@@ -17,14 +17,6 @@
     "birth-date": {
       "type": "date",
       "required": true
-    },
-    "created-at": {
-      "type": "date",
-      "required": true
-    },
-    "updated-at": {
-      "type": "date",
-      "required": true
     }
   },
   "validations": [],
