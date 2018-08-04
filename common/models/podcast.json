@@ -39,7 +39,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": ""
+    },
+    "episodes": {
+      "type": "hasMany",
+      "model": "episode",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
