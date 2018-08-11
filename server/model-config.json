@@ -14,25 +14,26 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "podfy-api",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "podfy-api",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "podfy-api",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "podfy-api",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "podfy-api",
     "public": false
   },
   "user": {
@@ -44,10 +45,6 @@
     "public": true
   },
   "episode": {
-    "dataSource": "podfy-api",
-    "public": true
-  },
-  "user-type": {
     "dataSource": "podfy-api",
     "public": true
   }

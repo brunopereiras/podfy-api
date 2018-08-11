@@ -21,11 +21,6 @@
   },
   "validations": [],
   "relations": {
-    "user-type": {
-      "type": "belongsTo",
-      "model": "user-type",
-      "foreignKey": ""
-    },
     "podcasts": {
       "type": "hasMany",
       "model": "podcast",
