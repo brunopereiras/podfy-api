@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "podfy-api": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "podfy-api",
-    "password": "",
+    "host": "tatooine.mongodb.umbler.com:41937",
+    "port": 41937,
+    "url": "tatooine.mongodb.umbler.com:41937",
+    "database": "podfy",
+    "password": "Buzunga-07",
     "name": "podfy-api",
-    "user": "",
+    "user": "duartebruno",
     "connector": "mongodb"
   }
 }
